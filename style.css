@@ -1,0 +1,30 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.orange-color {
+  color: orange;
+}
+
+.top-baner {
+  display: flex;
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.half-width img {
+  width: 80%;
+}
+
+.hire-button {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+  border-radius: 10px;
+}
