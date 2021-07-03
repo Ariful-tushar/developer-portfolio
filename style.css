@@ -6,8 +6,11 @@ body {
   color: orange;
 }
 
-.top-baner {
+section {
   display: flex;
+  margin-bottom: 150px;
+}
+.top-baner {
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
 }
@@ -27,4 +30,10 @@ body {
   background-image: linear-gradient(orange, tomato);
   padding: 10px 40px;
   border-radius: 10px;
+}
+
+.dream-big {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
